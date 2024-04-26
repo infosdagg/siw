@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bgImage {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)) ,url(data/bgImage.jpeg);
+    background-repeat:no-repeat ;
+    /* background-size: cover; */
+}
